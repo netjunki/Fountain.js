@@ -210,6 +210,10 @@ header::-moz-selection, header::selection { background: #454545; color: #fff; }
 #workspace #script.dpi100 .page { font-size: 16px; padding: 100px 100px 100px 150px; }
 #workspace #script.dpi150 .page { font-size: 33px;  padding: 150px 150px 150px 225px; }
 
+#workspace #script.dpi72 #inline.page { font-size: 12px; padding: 0px 72px 0px 108px; }
+#workspace #script.dpi100 #inline.page { font-size: 16px; padding: 0px 100px 0px 150px; }
+#workspace #script.dpi150 #inline.page { font-size: 33px;  padding: 0px 150px 0px 225px; }
+
 #workspace #script.dpi72 .page h1,
 #workspace #script.dpi72 .page h2,
 #workspace #script.dpi72 .page h3,
@@ -236,6 +240,10 @@ header::-moz-selection, header::selection { background: #454545; color: #fff; }
 #workspace #script.us-letter.dpi72 .page { min-height: 792px; } /* min height temporary until proper paging is implemented */
 #workspace #script.us-letter.dpi100 .page { min-height: 1100px; } /* min height temporary until proper paging is implemented */
 #workspace #script.us-letter.dpi150 .page { min-height: 1650px; } /* min height temporary until proper paging is implemented */
+
+#workspace #script.us-letter.dpi72 #inline.page { min-height: 0px; } /* min height temporary until proper paging is implemented */
+#workspace #script.us-letter.dpi100 #inline.page { min-height: 0px; } /* min height temporary until proper paging is implemented */
+#workspace #script.us-letter.dpi150 #inline.page { min-height: 0px; } /* min height temporary until proper paging is implemented */
 
 #workspace #script.us-letter.dpi72 .page.title-page { height: 792px; } /* temp for title page until paging is implemented */
 #workspace #script.us-letter.dpi100 .page.title-page { height: 1100px; } /* temp for title page until paging is implemented */
