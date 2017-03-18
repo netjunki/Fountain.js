@@ -118,7 +118,7 @@
         $app.on('fountain-js:loaded', function (e, file) {
           $dock.hide();
           $script.empty();
-          fountain.parse(file, function (result) {
+          fountain.parseToHtml(file, function (result) {
             if (result) {
               if (result.title && result.html.title_page) {
                 $script.append(page(result.html.title_page, true));
